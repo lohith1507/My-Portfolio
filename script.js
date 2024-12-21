@@ -18,3 +18,19 @@ const typed = new Typed('.multiple-text', {
     backDelay:1000,
     loop:true
 })
+
+
+document.getElementById('downloadButton').addEventListener('click', function () {
+
+    const resumeUrl = 'assets/Lohith.pdf';
+
+    const link = document.createElement('a');
+    link.href = resumeUrl;
+    link.download = 'resume.pdf';
+
+    document.body.appendChild(link);
+
+    link.click();
+
+    document.body.removeChild(link);
+});
