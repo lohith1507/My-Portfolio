@@ -28,7 +28,7 @@ body {
 
 section {
     min-height: 100vh;
-    padding: 10rem 9% 2rem;
+    padding: 5rem 8%;
 }
 
 .header{
@@ -179,11 +179,12 @@ span{
     justify-content: center;
     gap: 2rem;
     background-color: var(--snd-bg-color);
+    min-height: 85vh;
 }
 
 .about-img img{
     border-radius: 50%;
-    width: 25vw;
+    width: 20vw;
     border: 2px solid var(--main-color);
     box-shadow: 0 0 25px var(--main-color);
     cursor: pointer;
@@ -214,16 +215,18 @@ span{
 }
 
 .about-content p{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     margin: 2rem 0 3rem;
+    line-height: 2rem;
 }
 
-.skills {
-    min-height: auto;
-}
 .skills h2 {
     text-align: center;
     margin-bottom: 3rem;
+}
+
+.skills{
+    min-height: 90vh;
 }
 
 .skills-container{
@@ -260,6 +263,30 @@ span{
 .skills-box p {
     font-size: 1.4rem;
     margin: 1rem 0 3rem;
+}
+
+.projects{
+    background-color: var(--snd-bg-color);
+}
+
+.projects .heading {
+    text-align: center;
+}
+
+.projects h1{
+    font-size: 2rem;
+}
+
+.project{
+    margin: 1rem;
+}
+
+.projects ul{
+    font-size: 1.5rem;
+    padding: 1.5rem 3rem;
+}
+li{
+    line-height: 2.2rem;
 }
 
 .contact {
