@@ -26,7 +26,7 @@ document.getElementById('downloadButton').addEventListener('click', function () 
 
     const link = document.createElement('a');
     link.href = resumeUrl;
-    link.download = 'resume.pdf';
+    link.download = 'Lohith_resume.pdf';
 
     document.body.appendChild(link);
 
